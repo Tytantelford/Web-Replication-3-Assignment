@@ -6,17 +6,11 @@ body {
   height: 100%;
 }
 
-.fortnite-logo-img {
-  width: 100px;
-}
-
 .header {
-  background-color: rgba(158, 70, 209, 0.62);
+  background-color: #d577f1;
 }
-
-.skull-trooper-img {
-  width: 50%;
-  height: 50%;
+.header .fortnite-logo-img {
+  width: 100px;
 }
 
 .background-wrapper {
@@ -26,24 +20,55 @@ body {
   height: 100%;
 }
 
-.login {
-  background-color: white;
-  color: purple;
-  float: right;
-  width: 130px;
-  margin-right: 300px;
-  top: -350px;
+.left-side .background-img .skull-trooper-img {
+  width: 50%;
+  height: 100vh;
+}
+
+.right-side {
   position: relative;
+  top: -450px;
+  margin-right: -700px;
   text-align: center;
 }
 
+.login {
+  background-color: white;
+  color: purple;
+  font-family: "Playwrite IN", serif;
+  width: 130px;
+  margin: 0 auto 20px;
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.login i {
+  font-size: 15px;
+}
+
+.email-box,
+.password-box {
+  display: block;
+  width: 10%;
+  margin: 10px auto;
+  padding: 8px;
+}
+
 .email-box {
-  margin-right: 300px;
-  top: -350px;
+  margin-top: 10px;
 }
 
 .password-box {
-  margin-right: 300px;
-  top: -350px;
-  position: relative;
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  background-color: #d577f1;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 5px;
 }
